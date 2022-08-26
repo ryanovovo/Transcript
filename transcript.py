@@ -24,7 +24,7 @@ def interval(val):
 #下載成績單模板
 def get_transcript_template():
     if not os.path.exists('template.xlsx'):
-        wget.download('https://github.com/ryanovovo/Transcipt/raw/master/template.xlsx')
+        wget.download('https://github.com/ryanovovo/Transcript/raw/master/template.xlsx')
     
     return load_workbook('template.xlsx')
 
